@@ -33,11 +33,12 @@ body {
   column-gap: 6.4rem;
   align-items: center;
   margin-top: 6.4rem;
+  margin-bottom: 8rem;
 }
 
 .heading-primary {
   font-size: 4.4rem;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: 2.4rem;
@@ -75,3 +76,44 @@ body {
 }
 
 /* FEATURES SECTION */
+
+.heading-secondary {
+  font-weight: 600;
+  font-size: 3.6rem;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 8rem;
+}
+.features-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  padding: 1.2rem 3.2rem;
+  margin-bottom: 1.2rem;
+}
+
+ion-icon {
+  color: #1c7ed6;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.features-heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.features-text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
