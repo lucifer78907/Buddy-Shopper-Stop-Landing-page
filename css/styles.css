@@ -31,7 +31,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 6.4rem;
-  margin-top: 8rem;
+  align-items: center;
+  margin-top: 6.4rem;
 }
 
 .heading-primary {
@@ -45,20 +46,32 @@ body {
 .heading-description {
   font-size: 1.8rem;
   line-height: 1.6;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  font-weight: 500;
   color: #fff;
-  background-color: #4c6ef5;
+  background-color: #228be6;
   display: inline-block;
   padding: 1.2rem 2.4rem;
   border-radius: 1000px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #1c7ed6;
 }
 
 .header-img {
-  width: 75%;
+  width: 100%;
+  border-radius: 9px;
 }
+
+/* FEATURES SECTION */
