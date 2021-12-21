@@ -36,11 +36,20 @@ body {
   margin-bottom: 8rem;
 }
 
+.pre-heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #1864ab;
+  margin-bottom: 1.2rem;
+}
+
 .heading-primary {
   font-size: 4.4rem;
   letter-spacing: -0.5px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1;
   margin-bottom: 2.4rem;
 }
 
